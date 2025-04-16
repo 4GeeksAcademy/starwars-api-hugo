@@ -1,0 +1,163 @@
+.container-home {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #ddd;
+    margin-top: 30px;
+
+}
+
+.link-home {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.home {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.title {
+    padding: 10px;
+    color: brown
+}
+
+.card {
+    display: flex;
+}
+
+
+.peoplebody {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.single {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.single-container {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.form-control {
+    width: 300px;
+}
+
+.description {
+    margin-left: 20px;
+}
+
+.single-properties {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.properties {
+    padding: 10px;
+    margin: 0 auto;
+    border-top: solid 3px brown;
+}
+
+.tbl {
+    color: brown;
+}
+
+.imgSingle {
+    height: 400px;
+    display: flex;
+}
+
+.imgNav {
+
+    width: 50px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.Ciheart,
+.Faheart,
+.Faheart-color {
+    position: absolute;
+}
+.Faheart-color {
+    font-size: 20PX;
+    margin: 0 auto;
+    color:red
+}
+
+.Faheart {
+    visibility: hidden;
+    font-size: 20PX;
+    margin: 0 auto;
+}
+
+
+.Ciheart {
+    visibility: visible;
+    color: red;
+    font-size: 20PX;
+    margin: 0 auto;
+
+}
+
+.Ciheart:hover+.Faheart {
+    visibility: visible;
+
+}
+
+
+
+.hearts {
+    
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid red;
+    margin-right: 50px;
+}
+
+.hearts-p{
+    
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid red;
+    margin-right: 50px;
+}
+
+
+
+.home-title {
+    display: flex;
+}
